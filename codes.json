@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Cycle weather",
+    "sequence": [
+      "D",
+      "R",
+      "U",
+      "D",
+      "R",
+      "U",
+      "R"
+    ],
+    "status": "Press report",
+    "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+  },
+  {
+    "name": "Raise wanted level",
+    "sequence": [
+      "L",
+      "D",
+      "R",
+      "D",
+      "U",
+      "R",
+      "U"
+    ],
+    "status": "Press report",
+    "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+  },
+  {
+    "name": "Drunk",
+    "sequence": [
+      "U",
+      "L",
+      "R",
+      "U",
+      "U",
+      "L",
+      "R",
+      "U",
+      "L",
+      "R"
+    ],
+    "status": "Press report",
+    "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+  },
+  {
+    "name": "Cash $250,000",
+    "sequence": [
+      "U",
+      "R",
+      "D",
+      "L",
+      "U",
+      "L",
+      "D",
+      "R"
+    ],
+    "status": "Press report",
+    "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+  }
+]
