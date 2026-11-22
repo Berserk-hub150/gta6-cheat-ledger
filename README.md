@@ -1,13 +1,22 @@
-# Cheat Ledger
+# GTA VI Cheat Ledger
 
-Look up reported GTA VI button combinations and open the evidence behind each entry.
+**Find a reported button sequence and check where it came from.** Each entry keeps the combination, its evidence status and the source together.
 
-## Quick start
+## Try one lookup
 
-Open `index.html` for offline search. View the JSON file for machine-readable data.
+[Download the ledger](https://github.com/Berserk-hub150/gta6-cheat-ledger/archive/refs/heads/main.zip), extract it and open `index.html`. Search **weather** to see the D-pad sequence and open the linked report. The lookup works offline. Following a source link requires a connection.
 
-## Using your own material
+| Search term | What to inspect |
+|---|---|
+| `weather` | Direction sequence rendered as arrows |
+| `wanted` | Evidence status and source for the reported effect |
 
-The browser bundle embeds the records for offline use. After editing the JSON, run `python sync.py` to refresh app.js. Entries are attributed press reports, independently untested here. U/D/L/R denote D-pad directions.
+The [current dataset](codes.json) contains four entries attributed to press reporting. Independent in-game verification remains open. `U`, `D`, `L` and `R` denote the D-pad directions.
 
-Independent fan project. Grand Theft Auto is a trademark of its respective owners.
+## Improve an entry
+
+Edit `codes.json`, keep a direct source, then run `python sync.py` to refresh the offline browser copy. A useful correction identifies the entry, platform and build tested, with a reproducible result.
+
+---
+
+[Explore the GTA VI project collection](https://github.com/Berserk-hub150/gta6-resource-index) · Independent fan project. Grand Theft Auto is a trademark of its respective owners.
